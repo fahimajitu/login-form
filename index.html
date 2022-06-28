@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTP-8">
+        <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+
+        <!-- Custom CSS file-->
+        <link rel="stylesheet" href="css/style.css"/>
+        <style>
+            h1{
+                color: rgb(75, 4, 4);
+            }
+        </style>
+    </head>
+    <body>
+        <div align="center"/>
+            <h1>Login page</h1>
+            <hr />
+            <form class="main-form">
+                <label for="username">Username:</label><br />
+                <input 
+                type="Username" 
+                name="username" 
+                placeholder="Enter your username"/>
+                 <br/>
+                <label for="password">Password</label><br/>
+                <input
+                 type="password"
+                  name="password"
+                   placeholder="Enter your password"
+                    required/>
+                <level for="hidden">hidden</level>
+                <input type="hidden" name="hidden" id="hidden-btn"/>    <br/>
+
+             <br/> <br/><input type="submit" value="login"/> 
+            </form>
+
+
+            <p id="submit-btn"> 
+                Don't have an Account
+                 <a href="pages/register.html" target="_blank">please Register</a>
+            </p>
+            <p id="submit-btn">
+                Forget your password 
+                <a href="pages/forget.html" target="_blank">please Reset here</a>
+            </p>
+
+        </div>
+
+    </body>
+</html>

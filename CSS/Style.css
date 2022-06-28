@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(75, 4, 4);
+    text-align: center;
+}
+#submit-btn {
+    background-color: rgb(253, 2, 2);
+    text color: white;
+}
+#submit-btn {
+    background-color: rgb(255, 2, 2);
+}
+#hidden-btn{
+    background-color: aliceblue;
+}
+.main-form
+{
+    text-align: center;
+    background-color:rgb(36, 2, 68);
+    color: white;
+    
+}
